@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  height: 100vh;
+  /* overflow: hidden; */
+}
+.main {
+  display: flex;
+}
+.class {
+  width: 50%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 50px 80px 50px 70px;
+}
+.icon img {
+  width: 50px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+.icon img:focus{
+  filter: grayscale(100%)
+}
+.user {
+  font-size: 50px;
+  margin-top: 35px;
+  margin-bottom: 8px;
+}
+.login {
+  font-size: 15px;
+  color: #727171;
+}
+.formular {
+  margin-top: 55px;
+}
+input {
+  width: 95%;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+  padding-left: 20px;
+  box-shadow: 4px 2.5px black;
+  font-size: 15px;
+  color: black;
+}
+input:focus{
+outline: none;
+}
+input::placeholder {
+  color: black;
+  font-weight: 550;
+}
+.mail {
+  position: absolute;
+  top: 286px;
+  right: 115px;
+}
+.eye {
+  position: absolute;
+  top: 360px;
+  right: 115px;
+  cursor: pointer;
+}
+.forgot-password {
+  color: #463dff;
+  margin-top: 20px;
+  margin-left: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button {
+  width: 100%;
+  height: 60px;
+  border: 3px solid black;
+  border-radius: 10px;
+  box-shadow: 4px 2.5px black;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ffba07;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.new-account {
+  text-decoration: underline solid black;
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
